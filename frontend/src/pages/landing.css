@@ -1,0 +1,118 @@
+/* Global */
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  color: #111;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  background-color: #fff;
+  border-radius: 50px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.header .logo {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.header-icons span {
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+/* Hero Section */
+.hero {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f5f5;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  color: #666;
+}
+
+.hero-btn {
+  padding: 15px 30px;
+  font-size: 1rem;
+  background-color: #111;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Features Section */
+.features {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 50px 20px;
+  background-color: #fff;
+}
+
+.feature-card {
+  padding: 20px 30px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  font-weight: 500;
+}
+
+/* Categories Section */
+.categories {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 50px 20px;
+}
+
+.category-card {
+  width: 200px;
+  height: 250px;
+  background-color: #f5f5f5;
+  border-radius: 15px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding-bottom: 20px;
+  font-weight: 500;
+}
+
+/* CTA Section */
+.cta {
+  text-align: center;
+  padding: 80px 20px;
+  background-color: #111;
+  color: #fff;
+}
+
+.cta-btn {
+  margin-top: 20px;
+  padding: 15px 30px;
+  background-color: #fff;
+  color: #111;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
