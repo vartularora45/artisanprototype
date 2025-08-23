@@ -1,11 +1,13 @@
-import React from 'react'
+import React from "react";
+import "./App.css";
+import Landing from "./pages/landing";
 
-const App = () => {
+function App() {
   return (
-    <div>
-      hiii
+    <div className="App">
+      <Landing />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
